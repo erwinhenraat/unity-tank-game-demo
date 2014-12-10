@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{52933BFC-7935-5978-86B7-808819C76A14}</ProjectGuid>
+	<ProjectGuid>{58D81415-782C-E217-99BC-EE9D621E0973}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,17 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BaseTank.cs" />
      <Compile Include="Assets\Scripts\CloseGame.cs" />
      <Compile Include="Assets\Scripts\FireTurret.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\Scripts\MoveBullet.cs" />
-     <Compile Include="Assets\Scripts\MoveTank.cs" />
      <Compile Include="Assets\Scripts\OnFired.cs" />
      <Compile Include="Assets\Scripts\PlaySound.cs" />
+     <Compile Include="Assets\Scripts\PlayerTank.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
-     <Compile Include="Assets\Scripts\TurnTurret.cs" />
-     <Compile Include="Assets\Scripts\TurnTurretToTarget.cs" />
+     <Compile Include="Assets\Scripts\StaticTank.cs" />
      <Compile Include="Assets\Scripts\UndoRigidbodyForce.cs" />
+     <Compile Include="Assets\Scripts\old\MoveTank.cs" />
+     <Compile Include="Assets\Scripts\old\PatrollingTank.cs" />
+     <Compile Include="Assets\Scripts\old\TurnTurret.cs" />
+     <Compile Include="Assets\Scripts\old\TurnTurretToTarget.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

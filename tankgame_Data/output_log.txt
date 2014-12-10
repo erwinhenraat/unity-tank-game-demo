@@ -6,15 +6,15 @@ Direct3D:
     Vendor:   Intel
     VRAM:     64 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example project\tankgame_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\MA\2014-2015\periode2\mg1\topDownUnity\example project\tankgame_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example project\tankgame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\MA\2014-2015\periode2\mg1\topDownUnity\example project\tankgame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example project\tankgame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\MA\2014-2015\periode2\mg1\topDownUnity\example project\tankgame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.041 seconds
+Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example_project\tankgame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\MA\2014-2015\periode2\mg1\topDownUnity\example_project\tankgame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example_project\tankgame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\MA\2014-2015\periode2\mg1\topDownUnity\example_project\tankgame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example_project\tankgame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\MA\2014-2015\periode2\mg1\topDownUnity\example_project\tankgame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.080 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
 <RI> Input initialized.
-Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example project\tankgame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\MA\2014-2015\periode2\mg1\topDownUnity\example_project\tankgame_Data\Managed\System.Core.dll (this message is harmless)
