@@ -52,13 +52,13 @@
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\Scripts\MoveBullet.cs" />
      <Compile Include="Assets\Scripts\OnFired.cs" />
+     <Compile Include="Assets\Scripts\PatrollingTank.cs" />
      <Compile Include="Assets\Scripts\PlaySound.cs" />
      <Compile Include="Assets\Scripts\PlayerTank.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\StaticTank.cs" />
      <Compile Include="Assets\Scripts\UndoRigidbodyForce.cs" />
      <Compile Include="Assets\Scripts\old\MoveTank.cs" />
-     <Compile Include="Assets\Scripts\old\PatrollingTank.cs" />
      <Compile Include="Assets\Scripts\old\TurnTurret.cs" />
      <Compile Include="Assets\Scripts\old\TurnTurretToTarget.cs" />
  <Reference Include="UnityEngine.UI">

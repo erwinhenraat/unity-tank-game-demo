@@ -31,11 +31,13 @@ public class Follow : MonoBehaviour {
         }
         if (zoomOutBySpeed > 0) 
         {
-            float speed = Mathf.Abs(tankScript.GetSpeed());                
+            float speed = Mathf.Abs(tankScript.GetSpeed());
+                      
             Vector3 pos = transform.position;
             pos.y = (speed * zoomOutBySpeed + startCameraDistance);
             transform.position = pos;
 
+ 
         }
 
     }

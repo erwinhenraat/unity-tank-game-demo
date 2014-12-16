@@ -8,7 +8,7 @@ public class BaseTank : MonoBehaviour {
     private Transform exhaustTransform;
 
     [SerializeField]
-    private float coolDownTime = 100;
+    private float coolDownTime = 2;
     protected float coolDown;
 
     private PlaySound soundScript;
@@ -21,16 +21,17 @@ public class BaseTank : MonoBehaviour {
 
     [SerializeField]
     protected float accelleration = 1f;
+    private bool accellerating = false;
     [SerializeField]
-    private float decellaration = 0.5f;
+    private float decelleration = 0.5f;
     [SerializeField]
-    protected float maxSpeed = 10f;
+    protected float maxSpeed = 30f;
     protected float speed = 0f;
     private int direction = 1;
     
     [SerializeField]
-    protected float rotationSpeed = 10f;
-
+    protected float rotationSpeed = 90f;
+   
     public float GetSpeed() 
     {
         return speed;
@@ -78,15 +79,19 @@ public class BaseTank : MonoBehaviour {
                 flash.enabled = false;
             }
         }
-
-        if (speed*direction > 0 || speed*direction < 0) speed -= decellaration * direction;
+        if (!accellerating)
+        {
+            if (speed * direction > 0 || speed * direction < 0) speed -= decelleration * direction;
+        }
+        accellerating = false;
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
         exhaustTransform.gameObject.particleSystem.emissionRate = 5 + Mathf.Abs(speed);
         exhaustTransform.gameObject.particleSystem.startSize = 5 + Mathf.Abs( speed);
 	}
   
     protected void MoveTank(int direction) 
-    {        
+    {
+        accellerating = true;
         this.direction = direction;
         if (speed < maxSpeed && speed > -maxSpeed) speed += accelleration * direction;
        
